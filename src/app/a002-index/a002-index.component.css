@@ -1,0 +1,38 @@
+.bg-index{
+    background: rgba(228, 224, 224, 0.205) !important;
+
+}
+h1{
+    font-size: 14pt !important;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 12pt !important;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 11pt !important;
+    font-weight: 600;
+}
+
+h6{
+    margin-bottom: 0 !important;
+    font-size: 0.8rem !important;
+    line-height:20px;
+}
+
+.logo-size{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    align-items: center;
+}
+.i-001-logo-present{
+    width: 100%;
+    /* height: 160px; */
+}
+.form-control{
+    background: rgba(228, 224, 224, 0.301) !important;
+}
