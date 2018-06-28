@@ -1,0 +1,77 @@
+.bg-random{
+    background: rgba(222, 224, 222, 0.972) !important;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 14pt !important;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 12pt !important;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 11pt !important;
+    font-weight: 600;
+}
+
+h6{
+    margin-bottom: 0 !important;
+    font-size: 0.8rem !important;
+    line-height:20px;
+}
+
+.degital-size{
+    font-size: 16pt;
+}
+
+.degital-size-random{
+    font-size:19pt;
+}
+
+.bg-out-main{
+    padding: 30px;
+    width: 100%;
+    height: 400px;
+    background: #492B0D;
+}
+
+.bg-in-main{
+    width: 100%;
+    height: 340px;
+    background: rgb(255, 255, 255);
+}
+
+.font-size-phone{
+    font-size:20pt;
+    text-align: center; 
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+  }
+
+.bg-winner{
+    font-size:25pt !important;
+    color:rgb(51, 26, 26);
+    background: rgb(25, 238, 25);
+}
+
+.bg-three-sub{
+    width: 100%;
+    height: 100px;
+    background: #492B0D;
+}
+.circle-bottom{
+    width: 40px;
+    height: 40px;
+    background: rgb(25, 238, 25);
+    border-radius: 100%;
+}
+.bg-yourphone{
+    background: rgb(218, 215, 215);
+}
+  

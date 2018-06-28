@@ -8,9 +8,19 @@
     src: url('assets/css/fonts/Saysettha_OT.ttf');
     
 }
-
 .lao-font{
 	font-family: 'Saysettha_OT';
+}
+
+.degital-font{
+    font-weight: normal;
+    font-style: normal;
+    src: url('assets/css/fonts/digital-7.ttf');
+    font-family: 'digital-7';
+}
+.phone-font{
+    src: url('assets/css/fonts/OldStandard-Italic.ttf');
+    font-family: 'OldStandard-Italic';
 }
 body{
     background: rgba(202, 197, 197, 0.205) !important;
