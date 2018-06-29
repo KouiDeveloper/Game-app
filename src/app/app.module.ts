@@ -11,6 +11,7 @@ import { A002IndexComponent } from './a002-index/a002-index.component';
 import { A003RandomComponent } from './a003-random/a003-random.component';
 import { A004PopupTheWinnerComponent } from './a004-popup-the-winner/a004-popup-the-winner.component';
 import { B005ProlistComponent } from './b005-prolist/b005-prolist.component';
+import { B006AdminComponent } from './b006-admin/b006-admin.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { B005ProlistComponent } from './b005-prolist/b005-prolist.component';
     A002IndexComponent,
     A003RandomComponent,
     A004PopupTheWinnerComponent,
-    B005ProlistComponent
+    B005ProlistComponent,
+    B006AdminComponent
   ],
   imports: [
     BrowserModule,
