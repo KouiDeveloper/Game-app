@@ -12,6 +12,9 @@ import { A003RandomComponent } from './a003-random/a003-random.component';
 import { A004PopupTheWinnerComponent } from './a004-popup-the-winner/a004-popup-the-winner.component';
 import { B005ProlistComponent } from './b005-prolist/b005-prolist.component';
 import { B006AdminComponent } from './b006-admin/b006-admin.component';
+import { C001PromotionListComponent } from './b006-admin/c001-promotion-list/c001-promotion-list.component';
+import { C002ProlistComponent } from './b006-admin/c002-prolist/c002-prolist.component';
+import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-client-list.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { B006AdminComponent } from './b006-admin/b006-admin.component';
     A003RandomComponent,
     A004PopupTheWinnerComponent,
     B005ProlistComponent,
-    B006AdminComponent
+    B006AdminComponent,
+    C001PromotionListComponent,
+    C002ProlistComponent,
+    C003ClientListComponent
   ],
   imports: [
     BrowserModule,
