@@ -15,6 +15,7 @@ import { B006AdminComponent } from './b006-admin/b006-admin.component';
 import { C001PromotionListComponent } from './b006-admin/c001-promotion-list/c001-promotion-list.component';
 import { C002ProlistComponent } from './b006-admin/c002-prolist/c002-prolist.component';
 import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-client-list.component';
+import { ActiveProlistComponent } from './b005-prolist/active-prolist/active-prolist.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-clie
     B006AdminComponent,
     C001PromotionListComponent,
     C002ProlistComponent,
-    C003ClientListComponent
+    C003ClientListComponent,
+    ActiveProlistComponent
   ],
   imports: [
     BrowserModule,
