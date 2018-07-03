@@ -16,6 +16,7 @@ import { C001PromotionListComponent } from './b006-admin/c001-promotion-list/c00
 import { C002ProlistComponent } from './b006-admin/c002-prolist/c002-prolist.component';
 import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-client-list.component';
 import { ActiveProlistComponent } from './b005-prolist/active-prolist/active-prolist.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ActiveProlistComponent } from './b005-prolist/active-prolist/active-pro
     C001PromotionListComponent,
     C002ProlistComponent,
     C003ClientListComponent,
-    ActiveProlistComponent
+    ActiveProlistComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

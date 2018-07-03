@@ -1,0 +1,12 @@
+.color{
+    color: rgb(243, 157, 171) !important;
+    color: green !important;
+    background: red;
+
+}
+.color:hover{
+    background: yellow;
+    color: black !important;
+    transition: 0.5s;
+    font-size: 15pt;
+}

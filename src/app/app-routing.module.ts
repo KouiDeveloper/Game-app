@@ -11,8 +11,10 @@ import { C001PromotionListComponent } from './b006-admin/c001-promotion-list/c00
 import { C002ProlistComponent } from './b006-admin/c002-prolist/c002-prolist.component';
 import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-client-list.component';
 import { ActiveProlistComponent } from './b005-prolist/active-prolist/active-prolist.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
+  { path: '', component: A002IndexComponent},
   { path: 'main-laout', component: A000MainLayoutComponent},
   { path: 'index', component: A002IndexComponent},
   { path: 'ran-dom', component: A003RandomComponent},
@@ -22,7 +24,8 @@ const routes: Routes = [
   { path: 'promotion-list', component:C001PromotionListComponent},
   { path: 'pro-list', component:C002ProlistComponent},
   { path: 'client-list', component:C003ClientListComponent},
-  { path: 'active-pro', component:ActiveProlistComponent}
+  { path: 'active-pro', component:ActiveProlistComponent},
+  { path: 'test', component:TestComponent}
 ]
 @NgModule({
   imports: [
