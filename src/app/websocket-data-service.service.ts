@@ -60,7 +60,7 @@ export class WebsocketDataServiceService implements OnInit {
   public monthSource = new BehaviorSubject<any>(this._selectedMonth);
   public yearSource = new BehaviorSubject<any>(this._selectedYear);
   public otherSource = new BehaviorSubject<any>(this._otherMessage);
-  private timeOut_runner: NodeJS.Timer;
+  // private timeOut_runner: NodeJS.Timer;
   public currentDeviceSource = new BehaviorSubject<any>(this._currentDevice);
   public currentPaymentSource = new BehaviorSubject<any>(this._currentPayment);
   public currentSubUserSource = new BehaviorSubject<any>(this._currentSubUser);
@@ -564,7 +564,7 @@ export class WebsocketDataServiceService implements OnInit {
       this._client.data.message = '';
     });
     console.log('call constructor');
-    this.timeOut_runner = setTimeout(() => {
+   setTimeout(() => {
       this.shakeHands();
     }, 1000 * 1);
   }

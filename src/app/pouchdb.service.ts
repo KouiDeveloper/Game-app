@@ -1,6 +1,6 @@
 import { Injectable, EventEmitter } from '@angular/core';
 // import PouchDB from 'pouchdb';
-import * as PouchDB from 'pouchdb';
+import PouchDB from 'pouchdb-browser';
 // const PouchDB = $PouchDB['default'];
 @Injectable()
 export class PouchDBService {

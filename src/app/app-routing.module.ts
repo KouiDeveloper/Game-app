@@ -12,6 +12,7 @@ import { C002ProlistComponent } from './b006-admin/c002-prolist/c002-prolist.com
 import { C003ClientListComponent } from './b006-admin/c003-client-list/c003-client-list.component';
 import { ActiveProlistComponent } from './b005-prolist/active-prolist/active-prolist.component';
 import { TestComponent } from './test/test.component';
+import { B007LoginComponent } from './b007-login/b007-login.component';
 
 const routes: Routes = [
   { path: '', component: A002IndexComponent},
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'pro-list', component:C002ProlistComponent},
   { path: 'client-list', component:C003ClientListComponent},
   { path: 'active-pro', component:ActiveProlistComponent},
-  { path: 'test', component:TestComponent}
+  { path: 'test', component:TestComponent},
+  { path: 'admin-mounao-login', component:B007LoginComponent}
 ]
 @NgModule({
   imports: [
